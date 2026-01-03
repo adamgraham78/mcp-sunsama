@@ -12,7 +12,7 @@ import { VERSION, SERVER_NAME } from "./constants.js";
   const server = new McpServer({
     name: SERVER_NAME,
     version: VERSION,
-    instructions: `
+    description: `
 This MCP server provides access to the Sunsama API for task and project management.
 
 Supports both stdio and HTTP stream transports.
